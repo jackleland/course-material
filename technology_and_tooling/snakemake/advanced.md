@@ -66,8 +66,7 @@ Apart from the very common thread resource, Snakemake provides a
 resources**, e.g., memory usage or auxiliary computing devices like
 GPUs. Similar to threads, these can be considered by the scheduler when
 an available amount of that resource is given with the command line
-argument `--resources` (see `snakefiles-resources`{.interpreted-text
-role="ref"}).
+argument `--resources` (see `snakefiles-resources`).
 
 :::
 

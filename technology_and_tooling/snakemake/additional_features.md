@@ -82,8 +82,7 @@ Snakefile. When executing, Snakemake ensures that the output files of
 the sub-workflow are up-to-date before executing the current workflow.
 This mechanism is particularly useful when you want to extend a previous
 analysis without modifying it. For details about sub-workflows, see the
-`documentation <snakefiles-sub_workflows>`{.interpreted-text
-role="ref"}.
+`documentation <snakefiles-sub_workflows>`.
 
 ::::challenge{id=add_include title="Exercise"}
 
@@ -244,8 +243,7 @@ $ snakemake --drmaa --jobs 100
 If available, **DRMAA is preferable over the generic cluster modes**
 because it provides better control and error handling. To support
 additional cluster specific parametrization, a Snakefile can be
-complemented by a `snakefiles-cluster_configuration`{.interpreted-text
-role="ref"} file.
+complemented by a `snakefiles-cluster_configuration` file.
 
 ## Using \--cluster-status
 
